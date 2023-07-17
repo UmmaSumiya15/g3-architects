@@ -228,7 +228,7 @@
   flex-direction: column;
   gap: 15px;
   justify-content: flex-start;
-  max-width: 50%;
+  max-width: 90%;
 }
 .Facts{
   display: flex;
@@ -346,13 +346,16 @@ footer{
   .Facts {
     flex-direction: column;
   }
+  .fact-description{
+
+  }
   .icon-container{
     margin: 25px 0px;
     padding: 40px 90px;
   }
   .sponsers{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     gap: 30px;
     margin-top: 90px;
   }
