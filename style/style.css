@@ -1,0 +1,292 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* shared style */
+  body{
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  .description{
+    color: #727272;
+    font-size: 0.8rem;;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    text-align: justify;
+  }
+
+  .btn-primary{
+    border-radius: 8px;
+  background: #FF900E;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 15px 20px;
+  border: 0;
+  margin-top: 28px;
+  }
+
+  main{
+    margin: 40px 150px;
+  }
+  section{
+    margin-bottom: 100px;
+  }
+  footer{
+    margin: 40px 150px;
+  }
+  .sec-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 2rem;
+  
+  }
+
+/* style for nav */
+ header{
+  background-color: rgba(255, 144, 14, 0.10);
+ }
+.nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 150px;
+  padding: 40px 10px 0;
+  align-items: center;
+}
+.nav-title{
+  color: #131313;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.nav ul{
+  display: flex;
+  list-style: none;
+
+}
+.nav li{
+  margin-right: 60px;
+  
+}
+.nav li a{
+  text-decoration: none;
+  color: #424242;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 26px; /* 144.444% */
+}
+
+/* style for banner */
+
+.banner{
+  margin: 40px 150px 100px;
+}
+
+.banner-content{
+  text-align: center;
+  max-width: 700px;
+  margin: 80px auto 50px;
+
+}
+.banner-title{
+  color:#131313;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.banner img{
+  width: 100%;
+  padding-bottom: 35px;
+}
+
+
+/* style for features/ team */
+
+.feature-section{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+.feature-img img{
+  width: 100%;
+}
+
+.feature-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+}
+.feature-content{
+  margin: auto 45px;
+}
+.feature-title{
+  color:#727272;
+  font-weight: 500;
+}
+.span-1{
+  color: #131313;
+  font-weight: 700;
+}
+.span-2{
+  color: #FF900E;
+  font-weight: 700;
+}
+.feature-description{
+  margin: 15px 0 1px;
+}
+
+/* suggested feature section */
+
+
+
+.suggested-feature-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+.suggested-feature-content{
+   margin-bottom: 35px;
+}
+.suggested-feature-title{
+  border-left: 5px solid #FF900E;
+  padding: 10px 30px ;
+  text-align: justify;
+  margin: 20px 60px 20px 0;
+}
+
+.suggested-feature-description{
+  margin: 10px 0 20px ;
+  margin-right: 100px;
+}
+.suggested-feature{
+  margin-bottom: 30px;
+  padding: 30px;
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.06);
+  margin-right: 20px;
+  
+}
+.suggested-feature-subtitle{
+  color: #131313;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.suggested-feature-subdescription{
+  margin-top: 8px;
+}
+.suggested-feature-img img{
+  width: 90%;
+  height: 90%;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.suggested-feature-img{
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-bar{
+  padding: 20px 0;
+  position: relative;
+  bottom: 60px;
+  width: 240px;
+  margin-right: 0px;
+  background-color: #FF900E;
+  border: 0;
+  border-radius: 8px;
+}
+.big-title{
+  color: #FFF;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 60px; /* 107.692% */
+}
+.experience-bar-description{
+  color: white;
+  padding: 0 55px;
+}
+.suggested-feature-section{
+  margin-bottom: 42px;
+}
+
+
+/* style for facts section */
+
+.fact-section{
+  margin-top: 0;
+}
+.fact-container{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: flex-start;
+  max-width: 50%;
+}
+.Facts{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px ;
+  align-items: center;
+
+}
+.icon-container{
+  border-radius: 8px;
+  border: 1px solid #FF900E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 55px;
+  gap: 10px;
+}
+.fact-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.icon-description{
+  font-weight: 600;
+}
+.icon-title{
+  color:  #424242;
+font-weight: 600;
+}
+
+/* style for sponsers */
+
+.sponsers-container{
+  margin: 0 auto;
+  max-width: 50%;
+  text-align: center;
+}
+.sponsers-description{
+  text-align: center;
+  margin: 18px 0 40px;
+}
+
+.sponsers{
+  display: flex;
+  justify-content: space-between;
+}
+.sponsers img{
+  width: 5.8rem;
+  height: 2rem;
+}
+
+/* style for footer */
+footer{
+  border-radius: 8px;
+  background: #FFF4E7;
+
+}
+.footer-description{
+  padding: 30px 300px;
+  text-align: center;
+}
